@@ -1,3 +1,4 @@
+
 using Microsoft.EntityFrameworkCore;
 using BackendProjetoGrupo.Data;
 using BackendProjetoGrupo;
@@ -26,7 +27,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-//  ADICIONAR OS ENDPOINTS DE FILME E GÊNERO
+// ADICIONAR OS ENDPOINTS DE FILME E GÊNERO
 
 app.MapPost("/generos", async (Genero genero, AppDbContext db) =>
 {

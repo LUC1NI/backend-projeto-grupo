@@ -84,7 +84,7 @@ http://localhost:5085
 
 ## 📹 Demonstração
 
-Link para o vídeo demonstrativo: (inserir link aqui se tiver gravado)
+Link para o vídeo demonstrativo: https://youtu.be/bbWR3ktFpnU
 
 ## 👥 Equipe
 
