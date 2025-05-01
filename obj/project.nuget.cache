@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bba32sFO7Ns=",
+  "dgSpecHash": "AS42HHDYQzY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Windows\\Desktop\\joao\\faculdade\\3 semestre\\topicos especias de sistema\\ProjetoBackEndGrupo\\backend-projeto-grupo\\BackendProjeto.csproj",
+  "projectFilePath": "C:\\Users\\Windows\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.15\\microsoft.aspnetcore.openapi.8.0.15.nupkg.sha512",

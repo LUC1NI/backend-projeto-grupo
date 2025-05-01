@@ -3694,11 +3694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Windows\\Desktop\\joao\\faculdade\\3 semestre\\topicos especias de sistema\\ProjetoBackEndGrupo\\backend-projeto-grupo\\BackendProjeto.csproj",
+      "projectUniqueName": "C:\\Users\\Windows\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj",
       "projectName": "BackendProjeto",
-      "projectPath": "C:\\Users\\Windows\\Desktop\\joao\\faculdade\\3 semestre\\topicos especias de sistema\\ProjetoBackEndGrupo\\backend-projeto-grupo\\BackendProjeto.csproj",
+      "projectPath": "C:\\Users\\Windows\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj",
       "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Windows\\Desktop\\joao\\faculdade\\3 semestre\\topicos especias de sistema\\ProjetoBackEndGrupo\\backend-projeto-grupo\\obj\\",
+      "outputPath": "C:\\Users\\Windows\\Desktop\\backend-projeto-grupo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config"
