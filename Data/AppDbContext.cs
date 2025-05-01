@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using BackendProjeto.Models;
+using BackendProjetoGrupo;
 
-namespace BackendProjeto.Data
+namespace BackendProjetoGrupo.Data
 {
     public class AppDbContext : DbContext
     {
