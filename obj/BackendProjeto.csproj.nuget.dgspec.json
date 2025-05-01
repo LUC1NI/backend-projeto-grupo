@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj": {}
+    "C:\\Users\\leona\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj": {
+    "C:\\Users\\leona\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj",
         "projectName": "BackendProjeto",
-        "projectPath": "C:\\Users\\Windows\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj",
-        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows\\Desktop\\backend-projeto-grupo\\obj\\",
+        "projectPath": "C:\\Users\\leona\\Desktop\\backend-projeto-grupo\\BackendProjeto.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leona\\Desktop\\backend-projeto-grupo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

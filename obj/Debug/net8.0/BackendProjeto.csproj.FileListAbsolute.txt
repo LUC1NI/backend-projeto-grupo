@@ -191,3 +191,14 @@ C:\Users\Windows\Desktop\joao\faculdade\3 semestre\topicos especias de sistema\P
 C:\Users\Windows\Desktop\joao\faculdade\3 semestre\topicos especias de sistema\ProjetoBackEndGrupo\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.pdb
 C:\Users\Windows\Desktop\joao\faculdade\3 semestre\topicos especias de sistema\ProjetoBackEndGrupo\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.genruntimeconfig.cache
 C:\Users\Windows\Desktop\joao\faculdade\3 semestre\topicos especias de sistema\ProjetoBackEndGrupo\backend-projeto-grupo\obj\Debug\net8.0\ref\BackendProjeto.dll
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.csproj.AssemblyReference.cache
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.AssemblyInfoInputs.cache
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.AssemblyInfo.cs
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.csproj.CoreCompileInputs.cache
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.sourcelink.json
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.dll
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\refint\BackendProjeto.dll
+C:\Users\leona\Desktop\backend-projeto-grupo\obj\Debug\net8.0\BackendProjeto.pdb
