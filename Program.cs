@@ -26,7 +26,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// AQUI VOCÊS VÃO ADICIONAR OS ENDPOINTS DE FILME E GÊNERO
+//  ADICIONAR OS ENDPOINTS DE FILME E GÊNERO
 
 app.MapPost("/generos", async (Genero genero, AppDbContext db) =>
 {
