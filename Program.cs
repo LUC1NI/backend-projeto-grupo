@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using BackendProjetoGrupo.Data;
 using BackendProjetoGrupo;
@@ -10,9 +9,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite("Data Source=filmes.db"));
 
 
+
 // Swagger (documentação da API)
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
@@ -25,7 +26,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.Run();
 // AQUI VOCÊS VÃO ADICIONAR OS ENDPOINTS DE FILME E GÊNERO
 
 app.MapPost("/generos", async (Genero genero, AppDbContext db) =>
@@ -40,7 +40,31 @@ app.MapGet("/generos", async (AppDbContext db) =>
     var generos = await db.Generos.ToListAsync();
     return Results.Ok(generos);
 });
-// Parte Endpoints de genero
+app.MapGet("/generos/{id}", async (int id, AppDbContext db) =>
+{
+    var genero = await db.Generos.FindAsync(id);
+    return genero is not null ? Results.Ok(genero) : Results.NotFound();
+});
+
+app.MapPut("/generos/{id}", async (int id, Genero generoAtualizado, AppDbContext db) =>
+{
+    var genero = await db.Generos.FindAsync(id);
+    if (genero is null) return Results.NotFound();
+
+    genero.Nome = generoAtualizado.Nome;
+    await db.SaveChangesAsync();
+    return Results.Ok(genero);
+});
+
+app.MapDelete("/generos/{id}", async (int id, AppDbContext db) =>
+{
+    var genero = await db.Generos.FindAsync(id);
+    if (genero is null) return Results.NotFound();
+
+    db.Generos.Remove(genero);
+    await db.SaveChangesAsync();
+    return Results.NoContent();
+});
 
 // GET - Listar todos os filmes
 app.MapGet("/filmes", async (AppDbContext db) =>
@@ -99,3 +123,5 @@ app.MapDelete("/filmes/{id}", async (int id, AppDbContext db) =>
     await db.SaveChangesAsync();
     return Results.NoContent();
 });
+
+app.Run();
