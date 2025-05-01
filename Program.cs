@@ -25,9 +25,22 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.Run();
 // AQUI VOCÊS VÃO ADICIONAR OS ENDPOINTS DE FILME E GÊNERO
 
-app.Run();
+app.MapPost("/generos", async (Genero genero, AppDbContext db) =>
+{
+    db.Generos.Add(genero);
+    await db.SaveChangesAsync();
+    return Results.Created($"/generos/{genero.Id}", genero);
+});
+
+app.MapGet("/generos", async (AppDbContext db) =>
+{
+    var generos = await db.Generos.ToListAsync();
+    return Results.Ok(generos);
+});
+// Parte Endpoints de genero
 
 // GET - Listar todos os filmes
 app.MapGet("/filmes", async (AppDbContext db) =>
